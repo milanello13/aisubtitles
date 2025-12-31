@@ -104,6 +104,6 @@ echo "> [$(date +'%Y-%m-%d')] $1"
 cleanup() {
 [ -d "/CONTROL" ] && rm -rf /CONTROL >/dev/null 2>&1
 rm -rf /control /postinst /preinst /prerm /postrm /tmp/*.ipk /tmp/*.tar.gz >/dev/null 2>&1
-print_message "> Uploaded By Haitham "
+print_message "> Uploaded By ammarbary "
 }
 cleanup
