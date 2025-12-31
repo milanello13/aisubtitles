@@ -6,7 +6,7 @@
 # Configuration
 #########################################
 plugin="aisubtitles"
-git_url="https://github.com/milanello13/aisubtitles/raw/main/aisubtitles/"
+git_url="https://github.com/milanello13/aisubtitles/raw/main/aisubtitles"
 
 version=$(wget $git_url/version -qO- | awk 'NR==1')
 plugin_path="/usr/lib/enigma2/python/Plugins/Extensions/AISubtitles"
