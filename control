@@ -1,6 +1,0 @@
-Package: enigma2-plugin-extensions-aisubtitles
-Version: 1.8
-Architecture: all
-Maintainer: ammarbary
-Description: AI Subtitles for Enigma2
-Depends: python3-requests, python3-pillow
